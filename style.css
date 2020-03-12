@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #234;
+    position: relative;
+    height: 50px;
+}
+.logo{
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    float:left;
+}
+.image {
+    float: left;
+    padding-right: 10px;
+}
+.sign{
+    display: flex;
+    align-self: end;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+    float:right;
+    background-color: rgba(255, 255, 255, 0.493);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.user {
+    background-color: rgba(42, 58, 75, 0.575);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(34, 51, 68, 0.397);
+}
+
+.details {
+    color: white;
+}
+
+.row {
+    margin: 5px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 38, 51);
+    font-size: 18px;
+    color: white;
+    min-height: 70px;
+}
