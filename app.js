@@ -5,7 +5,7 @@ const appendNode = (parent, child) => {
     return parent.appendChild(child)
 }
 
-fetch('https://randomuser.me/api?results=25')
+fetch('https://randomuser.me/api?results=27')
     .then(resp => resp.json())
     .then(data => {
         const parent = document.getElementsByClassName('container-fluid')[0];
